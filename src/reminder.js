@@ -19,5 +19,4 @@ function delayedReminder(message, delay) {
   });
 };
 
-
 module.exports = { delayedReminder };

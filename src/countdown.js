@@ -26,6 +26,4 @@ function countdownTimer(startTime, interval) {
     return timerId; 
 };
 
-console.log(countdownTimer(10,1000));
-
 module.exports = { countdownTimer };
