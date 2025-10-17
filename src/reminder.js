@@ -19,4 +19,6 @@ function delayedReminder(message, delay) {
   });
 };
 
+console.log(delayedReminder("Time to stretch!", 3000));
+
 module.exports = { delayedReminder };

@@ -34,4 +34,6 @@ function stopRecurringTimer(timerId) {
   clearInterval(timerId);
 };
 
+console.log(recurringTimer("Hello, world!", 2000));
+
 module.exports = { recurringTimer, stopRecurringTimer };
