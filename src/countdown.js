@@ -13,9 +13,7 @@
  */
 
 function countdownTimer(startTime, interval) {
-
   let remainingTime = startTime
-  
   const timerId = setInterval(() => { 
       console.log(remainingTime);
       remainingTime--;
